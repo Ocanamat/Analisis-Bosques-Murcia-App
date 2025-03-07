@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyQt
+*_rc.py
+*.qrc.py
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Logs
+src/bosques_app/logs/*
+!src/bosques_app/logs/.gitkeep
+*.log
+*.log.zip
+
+# Misc
+.DS_Store
+.env
+data/Datos ESFP_2019-2024.xlsx
+data/Datos_REDD_CARM_2024.xlsx
+*desktop.ini
+
+# Included
+!/appmap.log

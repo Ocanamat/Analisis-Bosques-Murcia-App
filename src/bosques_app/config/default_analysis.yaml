@@ -1,0 +1,56 @@
+version: '1.0'
+created_at: '2025-03-06T18:47:04.247835'
+description: Análisis de datos forestales
+tasks:
+- id: 1
+  name: 'Gráfico: Dispersión; x: Fecha; y: Temperatura'
+  plot_type: Dispersión
+  variables:
+    x: Fecha
+    y: Temperatura
+  aesthetics: {}
+  coordinates:
+    flip: false
+    x_scale: lineal
+    y_scale: lineal
+  facet_settings:
+    rows: null
+    cols: null
+    scales: fixed
+  grammar_state:
+    x: Fecha
+    y: Temperatura
+    color: null
+    size: null
+    shape: null
+    alpha: null
+    facet_row: null
+    facet_col: null
+    plot_type: Dispersión
+    stat: null
+- id: 2
+  name: 'Gráfico: Dispersión; x: Fecha; y: Crecimiento Ac.'
+  plot_type: Dispersión
+  variables:
+    x: Fecha
+    y: Crecimiento Ac.
+  aesthetics: {}
+  coordinates:
+    flip: false
+    x_scale: lineal
+    y_scale: lineal
+  facet_settings:
+    rows: null
+    cols: null
+    scales: fixed
+  grammar_state:
+    x: Fecha
+    y: Crecimiento Ac.
+    color: null
+    size: null
+    shape: null
+    alpha: null
+    facet_row: null
+    facet_col: null
+    plot_type: Dispersión
+    stat: null

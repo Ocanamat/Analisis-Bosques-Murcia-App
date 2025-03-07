@@ -1,0 +1,131 @@
+variables:
+  - name: Fecha
+    origin: Común
+    type: Categórica
+    description: Fecha de la medición
+    excel_name: Fecha
+    subhierarchy:
+      - Año
+      - Mes
+      - Día
+
+  - name: Estación
+    origin: Común
+    type: Categórica
+    description: Estación de medición
+    excel_name: [Punto, Esfp, CARM]
+    subhierarchy:
+
+  - name: Arbol
+    origin: Dendómetro
+    type: Categórica
+    description: Identificador del árbol
+    excel_name: Arbol
+    subhierarchy:
+      - Especie
+      - Parcela
+      - ID
+    
+  - name: "Crecimiento Ac."
+    origin: Dendómetro
+    type: Numérica
+    description: Crecimiento acumulado del árbol
+    excel_name: "Crecimiento acumulado"
+    unit: mm
+    statistics:
+      - min
+      - max
+      - mean
+      - sum
+
+  - name: Porción
+    origin: Desfronde
+    type: Categórica
+    excel_name: Porcion
+    description: Porción de desfronde
+    subhierarchy:
+      - Aciculas
+      - Conos
+      - Corteza
+      - Cuerpos
+      - Heces
+      - Megasporofilos
+      - Ramas
+      - Otros
+
+  - name: "Materia Orgánica"
+    origin: Desfronde
+    type: Numérica
+    excel_name: MO
+    description: Cantidad de materia orgánica
+    unit: g
+    statistics:
+      - min
+      - max
+      - mean
+      - sum
+
+  - name: Temperatura
+    origin: Temperatura
+    type: Numérica
+    excel_name: Temp_Mean
+    description: Temperatura medida
+    unit: °C
+    statistics:
+      - min
+      - max
+      - mean
+
+  - name: Especie
+    origin: Captura
+    type: Categórica
+    excel_name: Especie
+    description: Especie capturada
+    subhierarchy:
+      - Familia
+      - Género
+      - Especie
+
+  - name: Categoría
+    origin: Captura
+    type: Categórica
+    excel_name: Categoria
+    description: Categoría de la especie
+    subhierarchy:
+      - Grupo
+      - Subgrupo
+
+  - name: Abundancia
+    origin: Medidas
+    type: Numérica
+    excel_name: Abundancia
+    description: Medida de abundancia
+    statistics:
+      - min
+      - max
+      - mean
+      - sum
+
+  - name: Riqueza
+    origin: Medidas
+    type: Numérica
+    excel_name: Riqueza
+    description: Medida de riqueza
+    statistics:
+      - min
+      - max
+      - mean
+
+  - name: Diversidad
+    origin: Medidas
+    type: Numérica
+    excel_name: Diversidad
+    description: Índice de diversidad
+    statistics:
+      - min
+      - max
+      - mean
+    subhierarchy:
+      - Shannon
+      - Simpson
+      - Pielou

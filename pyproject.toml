@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "bosques-app"
+version = "0.1.0"
+description = "Forest management application built with Qt6"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "bosques_app", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyQt6 = "^6.4.0"
+PyQt6-Qt6 = "^6.4.0"
+PyQt6-sip = "^13.4.0"
+pandas = "^2.0.0"
+numpy = "^1.24.0"
+openpyxl = "^3.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pytest-qt = "^4.2.0"
+black = "^23.0.0"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+bosques-app = "bosques_app.main:main"

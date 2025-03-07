@@ -1,0 +1,115 @@
+site_name: Forest Dashboard Documentation
+site_description: Documentation for the Forest Dashboard application
+site_author: DS.DGallego
+repo_url: https://github.com/yourusername/forest-dashboard
+repo_name: Forest Dashboard
+
+# Theme configuration
+theme:
+  name: material
+  palette:
+    primary: green
+    accent: light green
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+  language: en
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - pymdownx.emoji
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          default: true
+          name: Español
+          build: true
+      fallback: true
+      nav_translations:
+        es:
+          Home: Inicio
+          User Guide: Guía del Usuario
+          Installation: Instalación
+          Getting Started: Primeros Pasos
+          Features: Características
+          Developer Guide: Guía del Desarrollador
+          Architecture: Arquitectura
+          Contributing: Contribuir
+          API Reference: Referencia de la API
+          Models: Modelos
+          Controllers: Controladores
+          Utils: Utilidades
+          About: Acerca de
+          License: Licencia
+          Changelog: Registro de Cambios
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+            show_root_full_path: false
+            show_category_heading: true
+            show_if_no_docstring: false
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - User Guide:
+    - Installation: user-guide/installation.md
+    - Getting Started: user-guide/getting-started.md
+    - Features: user-guide/features.md
+  - Developer Guide:
+    - Architecture: developer-guide/architecture.md
+    - Contributing: developer-guide/contributing.md
+  - API Reference:
+    - Models: api/models.md
+    - Controllers: api/controllers.md
+    - Utils: api/utils.md
+  - About:
+    - License: about/license.md
+    - Changelog: about/changelog.md
+
+# Extra configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+  version:
+    provider: mike
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Español
+      link: /es/
+      lang: es

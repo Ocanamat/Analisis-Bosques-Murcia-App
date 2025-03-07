@@ -1,0 +1,11 @@
+station_id,name,latitude,longitude,elevation,type,region
+MU001,Sierra Espuña,37.8651,-1.5786,1025,Forest,Murcia
+MU002,Caravaca de la Cruz,38.1077,-1.8694,643,Forest,Murcia
+MU003,Moratalla,38.1891,-1.8913,682,Forest,Murcia
+MU004,Ricote,38.1522,-1.4169,498,Forest,Murcia
+MU005,Jumilla,38.4736,-1.3261,510,Forest,Murcia
+MU006,Cieza,38.2355,-1.4188,188,Forest,Murcia
+MU007,Calasparra,38.2294,-1.7019,341,Forest,Murcia
+MU008,Bullas,38.0469,-1.6722,650,Forest,Murcia
+MU009,Lorca,37.6736,-1.6969,353,Forest,Murcia
+MU010,Puerto Lumbreras,37.5639,-1.8083,465,Forest,Murcia

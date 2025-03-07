@@ -1,0 +1,95 @@
+app_info:
+  name: "Análisis Datos Forestales RRMM"
+  version: "1.0.0"
+  author: "Tama Francisquez"
+  copyright: "Copyright 2025 Tama Francisquez"
+  description: "Aplicación para el análisis y visualización de datos forestales"
+  license: "Licencia de Usuario Final (EULA)"
+  markdown_intro: |
+    ### Bienvenido a la Aplicación de Análisis de Datos Forestales
+
+    Esta aplicación le permite analizar, visualizar y explorar datos forestales de manera interactiva. Podrá cargar sus propios datos, crear gráficos personalizados y explorar la distribución geográfica de las estaciones de monitoreo.
+
+    #### Guía rápida de uso:
+
+    1. Cargue sus datos utilizando el botón "Cargar datos..." en la pestaña Datos
+    2. Seleccione las hojas de datos que desea analizar
+    3. Vaya a la pestaña "Constructor Gráficos" para crear visualizaciones
+    4. Arrastre variables a los campos correspondientes (Eje X, Eje Y, Color, etc.)
+    5. Explore el mapa de estaciones en la pestaña "Mapa"
+    6. Utilice las opciones de zoom y filtrado para analizar sus datos en detalle
+
+    La aplicación está diseñada para ser intuitiva y fácil de usar, permitiéndole concentrarse en el análisis de sus datos forestales sin complicaciones técnicas.
+
+    ---
+
+    <div class="center-container"><a href="https://forestdashboard.example.com/docs">Documentación: Guía de Uso</a></div>
+
+    *Versión 1.0.0 - Para soporte técnico, contacte con el administrador del sistema.*
+
+  css_style: |
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.1;
+      margin: 6px;
+      color: #333;
+      font-size: 12px;
+    }
+    h2 {
+      color: #2c5e1a;
+      font-size: 14px;
+      margin: 6px 0 4px 0;
+    }
+    h3 {
+      color: #2c5e1a;
+      font-size: 13px;
+      margin: 4px 0 2px 0;
+    }
+    p {
+      margin: 6px 0;
+    }
+    ul {
+      margin: 6px 0 6px 16px;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    ol {
+      background-color: #f5f9f3;
+      border-left: 3px solid #3a7d23;
+      padding: 6px 6px 6px 25px;
+      margin: 8px 0;
+    }
+    ol li {
+      margin-bottom: 4px;
+      padding-left: 2px;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      background-color: #3a7d23;
+      padding: 4px 10px;
+      border-radius: 3px;
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 12px;
+    }
+    a:hover {
+      background-color: #2c5e1a;
+    }
+    em {
+      font-style: italic;
+      font-size: 0.9em;
+      color: #666;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 8px 0;
+    }
+    .center-container {
+      text-align: center;
+      width: 100%;
+      margin: 6px 0;
+    }

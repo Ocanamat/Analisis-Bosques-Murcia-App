@@ -1,0 +1,15 @@
+window:
+  title: "Análisis Datos Forestales RRMM"
+  frame_margins: [4, 4, 4, 4]
+
+plot:
+  background: "w"
+  grid_alpha: 0.3
+
+style:
+  default_label: "color: #808080;"
+
+tree:
+  column_widths:
+    origin: 100
+    checkbox: 70

@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/logos">
+        <file>../images/RM_Logo.png</file>
+        <file>../images/Bosques_Logo.png</file>
+    </qresource>
+</RCC>

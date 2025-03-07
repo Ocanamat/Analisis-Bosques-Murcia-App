@@ -1,0 +1,42 @@
+LISTA DE GRÁFICOS
+=================
+
+Fecha y hora: 2025-03-06 18:01:05
+
+Gráfico 1: Gráfico: Dispersión; x: Fecha; y: Temperatura
+--------------------------------------------------------
+Configuración:
+  - Tipo de gráfico: Dispersión
+  - Eje X: Fecha
+  - Eje Y: Temperatura
+  - Escala X: lineal
+  - Escala Y: lineal
+  - Coordenadas: cartesiano
+
+==================================================
+
+Gráfico 2: Gráfico: Dispersión; x: Temperatura; y: Crecimiento Ac.
+------------------------------------------------------------------
+Configuración:
+  - Tipo de gráfico: Dispersión
+  - Eje X: Temperatura
+  - Eje Y: Crecimiento Ac.
+  - Escala X: lineal
+  - Escala Y: lineal
+  - Coordenadas: cartesiano
+
+==================================================
+
+Gráfico 3: Gráfico: Dispersión; x: Fecha; y: Materia Orgánica
+-------------------------------------------------------------
+Configuración:
+  - Tipo de gráfico: Dispersión
+  - Eje X: Fecha
+  - Eje Y: Materia Orgánica
+  - Escala X: lineal
+  - Escala Y: lineal
+  - Coordenadas: cartesiano
+
+==================================================
+
+Total de gráficos: 3

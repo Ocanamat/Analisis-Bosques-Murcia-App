@@ -1,0 +1,55 @@
+plot_types:
+  scatter:
+    name: Dispersión
+    description: Gráfico de dispersión para variables numéricas
+    required_variables:
+      - x: Numérica
+      - y: Numérica
+    optional_variables:
+      - color: Categórica
+      - size: Numérica
+      - shape: Categórica
+      - alpha: Numérica
+    facets:
+      - row: Categórica
+      - col: Categórica
+    
+  boxplot:
+    name: Caja y Bigotes
+    description: Gráfico de caja para distribuciones
+    required_variables:
+      - y: Numérica
+      - group: Categórica
+    optional_variables:
+      - color: Categórica
+      - alpha: Numérica
+    facets:
+      - row: Categórica
+      - col: Categórica
+
+  line:
+    name: Línea
+    description: Gráfico de líneas para series temporales
+    required_variables:
+      - x: Categórica
+      - y: Numérica
+    optional_variables:
+      - color: Categórica
+      - size: Numérica
+      - alpha: Numérica
+    facets:
+      - row: Categórica
+      - col: Categórica
+
+  bar:
+    name: Barras
+    description: Gráfico de barras para comparaciones
+    required_variables:
+      - x: Categórica
+      - y: Numérica
+    optional_variables:
+      - color: Categórica
+      - alpha: Numérica
+    facets:
+      - row: Categórica
+      - col: Categórica
